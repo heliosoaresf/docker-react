@@ -10,7 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom --forceExit",
+    "test-coverage": "CI=true react-scripts test --watch=all",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
