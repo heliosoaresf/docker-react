@@ -10,5 +10,5 @@ COPY ./ ./
 
 FROM nginx
 EXPOSE 80
-COPY --from=builder ./build/ /usr/share/nginx/html/
+COPY --from=builder build/ /usr/share/nginx/html/
 
